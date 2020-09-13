@@ -1,0 +1,13 @@
+{
+    "scripts": {
+        "start": "webpack --config webpack.config.js"
+    },
+    "devDependencies": {
+        "css-loader": "^3.6.0",
+        "extract-text-webpack-plugin": "^4.0.0-beta.0",
+        "style-loader": "^1.2.1",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    }
+}
