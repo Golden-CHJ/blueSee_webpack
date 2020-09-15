@@ -1,0 +1,24 @@
+{
+  "name": "dive-into-webpack",
+  "version": "1.0.0",
+  "scripts": {
+    "build:browser": "webpack",
+    "build:server": "webpack --config webpack_server.config.js",
+    "http_server": "node ./http_server.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.5",
+    "express": "^4.17.1",
+    "ignore-loader": "^0.1.2",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.4.0",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
